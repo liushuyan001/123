@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         ObjectAnimator translationX = ObjectAnimator.ofFloat(txtBackground,"translationX",450f);
         ObjectAnimator translationY = ObjectAnimator.ofFloat(txtBackground,"translationY",580f);
         //动画组合
+        //分支
         AnimatorSet animatorSet = new AnimatorSet();
         animatorSet.play(translationX).with(translationY);
         //执行动画的时间
