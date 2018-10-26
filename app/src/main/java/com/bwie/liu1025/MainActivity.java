@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         DisplayMetrics dm = new DisplayMetrics();
-
+        //123
         //执行动画的控件
         txtBackground = findViewById(R.id.txt_background);
         //图片平移还能弹回  如果没有txtBackground.getTranslationX()则控件不会弹回来
